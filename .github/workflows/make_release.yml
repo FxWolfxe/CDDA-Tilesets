@@ -73,6 +73,10 @@ jobs:
             artifact: RetroDaysTileset
             tileset_dir: gfx/Retrodays
             compose_args: --use-all
+          - name: GiantDays
+            artifact: GiantDays
+            tileset_dir: gfx/GiantDays
+            compose_args: --use-all
           - name: SmashButton_iso
             artifact: SmashButton_iso
             tileset_dir: gfx/HitButton_iso
@@ -100,7 +104,7 @@ jobs:
 
         # re-installing libvips; caching it won't set it up the way we need it
         # still cache it because we'll make it work somehow
-      - run: sudo apt-get install libvips42
+      - run: sudo apt-get update; sudo apt-get install libvips42
       - run: pip3 install pyvips
       - uses: actions/checkout@v3
 

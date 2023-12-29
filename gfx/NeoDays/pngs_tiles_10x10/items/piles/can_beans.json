@@ -19,7 +19,11 @@
     "feces_roach",
     "material_soil",
     "dogfood",
-    "f_woodchips"
+    "f_woodchips",
+    "lazy_lobster_casserole",
+    "freeze_dried_meal_hydrated",
+    "rehydrated_mollusk",
+    "chem_ferric_chloride"
   ],
   "fg": "can_beans"
 }

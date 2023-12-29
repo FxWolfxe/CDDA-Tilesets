@@ -6,7 +6,12 @@
     "milk_curdled",
     "eggnog",
     "eggnog_spiked",
-    "paint_white"
+    "ayran",
+    "paint_white",
+    "milkshake",
+    "milkshake_deluxe",
+    "milk_fortified",
+    "liq_bandage"
   ],
   "fg": "milk"
 }
